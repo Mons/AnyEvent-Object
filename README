@@ -1,0 +1,33 @@
+NAME
+    AnyEvent::Object - Parent class for AnyEvent-based objects
+
+SYNOPSIS
+        package Sample;
+        use 'parent' AnyEvent::Object;
+
+        ...
+
+        my $s = Sample->new();
+
+        $s->periodic(1, sub { ... });
+        $s->after(3, sub { ... });
+
+        $s->destroy;
+
+DESCRIPTION
+        ...
+
+METHODS
+    ...()
+        ...
+
+AUTHOR
+    Mons Anderson <mons@cpan.org>
+
+COPYRIGHT & LICENSE
+    Copyright 2012 Mons Anderson, all rights reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of either: the GNU General Public License as published
+    by the Free Software Foundation; or the Artistic License.
+
